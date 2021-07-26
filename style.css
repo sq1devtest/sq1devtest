@@ -1,0 +1,121 @@
+/*
+Theme Name: Square1 Dev Test
+Author: Marnest Dippenaar
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 7.3
+Version: 1.0
+*/
+
+body {
+    background-color: #F8F8F8;
+}
+
+.navbar-default {
+    background-color: #511378;
+    border-color: #511378;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+.navbar-brand>img {
+    max-height: 100%;
+}
+
+.post-listing {
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.post-listing > div {
+    float: left;
+}
+
+.post-listing .post-info {
+    padding: 15px;
+    width: 58.33333333%;
+}
+
+.post-listing .post-info a {
+    color: #180624;
+}
+
+.post-listing .post-info a:hover,
+.post-listing .post-info a:hover {
+    color: #180624;
+    text-decoration: none;
+}
+
+.post-listing .post-info .post-title {
+    font-weight: bold;
+}
+
+.post-listing .post-info .post-author {
+    color: #8E8E8E;
+}
+
+.post-listing .post-thumb {
+    width: 41.66666667%;
+}
+
+.post-listing .post-thumb img {
+    border-radius: 0 15px 15px 0;
+}
+
+body.single-post .entry-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+body.single-post .post-img img {
+    min-width: 100%;
+    border-radius: 20px;
+}
+
+body.single-post .post-metas {
+    margin: 15px 0;
+}
+
+.footer {
+    background-color: #180624;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 45px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .footer-copy {
+    font-size: 12px;
+}
+
+.footer .footer-socials {
+    margin: 0 0 15px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: 60px;
+    }
+}
